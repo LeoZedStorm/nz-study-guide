@@ -1,0 +1,12 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+Gemfile.lock
+.DS_Store
+
+# 原始培养计划 Word 文档（内部资料，不进仓库）
+*.doc
+*.docx
