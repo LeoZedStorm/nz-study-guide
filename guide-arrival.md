@@ -73,6 +73,16 @@ date: 2026-06-20 10:00:00 +1200
 
 > ⚠️ 迎新周具体日期每学年/每学期不同，务必以录取通知邮件或 [奥克兰大学官网 Orientation 页面](https://www.auckland.ac.nz/en/students/information-new-students/orientation-new-students.html) 当年公布的时间为准。
 
+## 校园地图
+
+奥克兰大学主校区 **City Campus** 就在市中心，紧邻 Albert Park，从 Britomart / Aotea Square 步行即可到达。上面提到的 Student Hub、General Library（Alfred Street）、各教学楼都集中在这一带。
+
+下面是学校官方 City Campus 地图，标注了各楼栋编号、图书馆、餐饮、出入口等（点开可看大图；需要放大查看细节可下载高清 PDF）：
+
+[![奥克兰大学 City Campus 官方地图]({{ site.baseurl }}/assets/img/uoa-city-campus-map.jpg)]({{ site.baseurl }}/assets/img/uoa-city-campus-map.jpg)
+
+📍 高清原图：[City Campus Map（PDF，约 7 MB）](https://www.auckland.ac.nz/assets/on-campus/our-campuses/campus-maps/city-campus-map.pdf)
+
 ## 校园数字生态
 
 - **校园 WiFi**：校内主用的网络是 **UoA-WiFi**，用 UPI 账号登录即可。奥克兰大学同时也是 **eduroam**（国际学术漫游网络）成员——用同一套 UPI 账号，出国或去新西兰其他 eduroam 成员高校访问时也能直接连网；但在奥克兰大学本校校园内，eduroam 网络主要是留给来访的外校学生使用，本校学生日常上课仍以 UoA-WiFi 为主。
