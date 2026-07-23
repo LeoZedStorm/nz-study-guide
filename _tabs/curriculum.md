@@ -89,15 +89,43 @@ date: 2026-07-05 10:00:00 +1200
 
 ### 学科基础课（必修）—— 完成学分 45（15 门全修）
 
-工程力学、工科化学 1、工科化学实验、高等数学 1/2、基础物理 1/2-理工、线性代数、工程计算与软件开发导论、材料科学基础、工程设计原理、工程训练、电气与数字系统、工科物理实验、离散数学 —— 全部由中方（SCU）讲授，集中在第 1–2 学年。
+数理化基础 + 工程入门，**全部由中方（SCU）讲授**，集中在第 1–2 学年。这个模块是"全修"，15 门课学分加起来正好 45，没有选择空间。
+
+| 课程 | 开课方 | 学分 | 总学时 | 学期 |
+|---|---|---|---|---|
+| 工程力学 Engineering Mechanics | 中方 | 3 | 48 | 1F |
+| 工科化学 1 General Chemistry for Engineers 1 | 中方 | 3 | 48 | 1F |
+| 工科化学实验 Chemistry Laboratory | 中方 | 2 | 32 | 1F |
+| 高等数学 1 Mathematical Modelling 1 | 中方 | 4 | 64 | 1F |
+| 线性代数 Matrices and Linear Algebra | 中方 | 3 | 48 | 1F |
+| 工程计算与软件开发导论 Introduction to Engineering Computation and Software Development | 中方 | 3 | 48 | 1F |
+| 高等数学 2 Mathematical Modelling 2 | 中方 | 4 | 64 | 1S |
+| 基础物理 1-理工 Physics for Science and Engineering 1 | 中方 | 4 | 64 | 1S |
+| 材料科学基础 Materials Science | 中方 | 3 | 48 | 1S |
+| 工程设计原理 Principles of Engineering Design | 中方 | 3 | 48 | 1S |
+| 基础物理 2-理工 Physics for Science and Engineering 2 | 中方 | 4 | 64 | 2F |
+| 工程训练 Workshop Practice | 中方 | 1 | 16 | 2F |
+| 电气与数字系统 Electrical and Digital Systems | 中方 | 3 | 48 | 2F |
+| 离散数学 Discrete Structures in Mathematics and Computer Science | 中方 | 3 | 48 | 2F |
+| 工科物理实验 Physics Laboratory for Science and Engineering | 中方 | 2 | 32 | 2S |
 
 ### 专业核心课（必修）—— 完成学分 48（16 门全修）
 
-★ **这是培养方案中授课方由中方转向外方（UoA）的模块** —— 前 7 门中方讲授，后 9 门直接由奥克兰大学教师授课。每门 3 学分。
+★ **这是培养方案中授课方由中方转向外方（UoA）的模块** —— 前 7 门中方讲授，后 9 门直接由奥克兰大学教师授课。每门 3 学分、48 学时。
 
 **中方（SCU）讲授（第 1–2 学年）：**
 
-面向对象程序设计、计算机工程基础、数据结构与算法、人工智能与机器学习、计算机体系结构、软件工程设计1、软件质量保证
+| 课程 | 开课方 | 学分 | 总学时 | 学期 |
+|---|---|---|---|---|
+| 面向对象程序设计 Object-Oriented Programming | 中方 | 3 | 48 | 1S |
+| 计算机工程基础 Fundamentals of Computer Engineering | 中方 | 3 | 48 | 2F |
+| 数据结构与算法 Data Structures and Algorithms | 中方 | 3 | 48 | 2F |
+| 人工智能与机器学习 Artificial Intelligence and Machine Learning | 中方 | 3 | 48 | 2S \* |
+| 计算机体系结构 Computer Architecture | 中方 | 3 | 48 | 2S \* |
+| 软件工程设计 1 Software Engineering Design 1 | 中方 | 3 | 48 | 2S \* |
+| 软件质量保证 Software Quality Assurance | 中方 | 3 | 48 | 2S \* |
+
+*\* 这 4 门课在培养方案原文里存在前后不一致：中文写的是"2 春"（第 2 学年春季学期），但同一行的学期代码却写成 "2F"（秋季）。本页按中文表述取"2S"，实际以学院教务安排为准。*
 
 **外方（UoA）直接授课（第 3 学年）：**
 
@@ -127,13 +155,27 @@ date: 2026-07-05 10:00:00 +1200
 | [Sebastian Link](https://profiles.auckland.ac.nz/s-link) | Computer Science, PhD | 计算机体系结构、数据库系统基础 |
 | [Michael Witbrock](https://profiles.auckland.ac.nz/m-witbrock) | AI, PhD | 人工智能与机器学习 |
 
-### 专业选修课（外方 UoA）—— 完成学分 9（3 门技术选修，第 3–4 学年）
+### 专业选修课（选修，外方 UoA）—— 完成学分 9（3 门技术选修，第 3–4 学年）
 
-由奥克兰大学当学期开设的技术选修课目录中选择，具体课程逐年变化，可在 [UOA 课程目录](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option.html)自行查询,课程表也可自行查询如[CS课程表](https://study.auckland.ac.nz/ords/r/uoa/catalogue/plan?p7_code=COMP-BSc&_gl=1*147dyey*_gcl_aw*R0NMLjE3NzkxNjMyNzguY2p3a2Nhanc4YXJxYmhiOWVpd2FmaWtkcXBjempwanZ4eXJocGVrM2p2ampoamd6Y294Y3B2bDlob2Q1NmxqMXBqbW5xNjN4Zi10aHZyb2NqbGVxYXZkX2J3ZQ..*_gcl_au*MTE0NjMxNzIyMy4xNzg0NTg4NTUz*_ga*OTI5MDEzMzczLjE3NzQ4MjU4MTg.*_ga_SJ5FRP7YTL*czE3ODQ3NzE5OTkkbzE4JGcxJHQxNzg0NzcyMTI1JGo2MCRsMCRoMA..)。
+培养方案里只预留了 3 个"技术选修"名额，没有指定具体课程：
 
-### 跨学科专业教育（外方 UoA）—— 完成学分 9（3 门人文社科选修，自由修读）
+| 课程 | 开课方 | 学分 | 总学时 | 学期 |
+|---|---|---|---|---|
+| 技术选修 1 Technical Elective 1 | 外方 | 3 | 48 | 3F |
+| 技术选修 2 Technical Elective 2 | 外方 | 3 | 48 | 3S |
+| 技术选修 3 Technical Elective 3 | 外方 | 3 | 48 | 4F |
 
-同样从奥克兰大学人文社科类课程中自由选择，不固定学期。
+具体修哪几门，由奥克兰大学当学期开设的技术选修课目录中选择，逐年变化，可在 [UOA 课程目录](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option.html)自行查询，课程表也可自行查询如 [CS 课程表](https://study.auckland.ac.nz/ords/r/uoa/catalogue/plan?p7_code=COMP-BSc&_gl=1*147dyey*_gcl_aw*R0NMLjE3NzkxNjMyNzguY2p3a2Nhanc4YXJxYmhiOWVpd2FmaWtkcXBjempwanZ4eXJocGVrM2p2ampoamd6Y294Y3B2bDlob2Q1NmxqMXBqbW5xNjN4Zi10aHZyb2NqbGVxYXZkX2J3ZQ..*_gcl_au*MTE0NjMxNzIyMy4xNzg0NTg4NTUz*_ga*OTI5MDEzMzczLjE3NzQ4MjU4MTg.*_ga_SJ5FRP7YTL*czE3ODQ3NzE5OTkkbzE4JGcxJHQxNzg0NzcyMTI1JGo2MCRsMCRoMA..)。
+
+### 跨学科专业教育（选修，外方 UoA）—— 完成学分 9（3 门人文社科选修，自由修读）
+
+培养方案原文备注为"学生自由修读的跨学科课程"，同样只预留名额、不指定具体课程，也**没有固定学期**：
+
+| 课程 | 开课方 | 学分 | 总学时 | 学期 |
+|---|---|---|---|---|
+| 人文社科选修 1 H/SS Elective 1 | 外方 | 3 | 48 | 不固定 |
+| 人文社科选修 2 H/SS Elective 2 | 外方 | 3 | 48 | 不固定 |
+| 人文社科选修 3 H/SS Elective 3 | 外方 | 3 | 48 | 不固定 |
 
 ---
 
