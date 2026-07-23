@@ -103,16 +103,6 @@
       {% endif %}
     {% endunless %}
 
-    <!-- GitHub star widget -->
-    <a href="https://github.com/LeoZedStorm/nz-study-guide" target="_blank" rel="noopener noreferrer"
-       style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;margin-right:6px;border:1px solid rgba(140,140,140,.4);border-radius:6px;text-decoration:none;color:inherit;font-size:12px;font-weight:600;">
-      <svg height="14" width="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
-      Star
-      <span style="padding-left:5px;margin-left:1px;border-left:1px solid rgba(140,140,140,.4);opacity:.75;">
-        <span class="gh-star-count">–</span>
-      </span>
-    </a>
-
     {% for entry in site.data.contact %}
       {%- assign url = null -%}
 
@@ -163,6 +153,18 @@
     {% endfor %}
   </div>
   <!-- .sidebar-bottom -->
+
+  <!-- GitHub star widget: its own row, separate flex context from the theme-toggle/contact row above -->
+  <div class="w-100" style="padding: 4px 0 8px;">
+    <a href="https://github.com/LeoZedStorm/nz-study-guide" target="_blank" rel="noopener noreferrer"
+       style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid rgba(140,140,140,.4);border-radius:6px;text-decoration:none;color:inherit;font-size:12px;font-weight:600;">
+      <svg height="14" width="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
+      Star
+      <span style="padding-left:5px;margin-left:1px;border-left:1px solid rgba(140,140,140,.4);opacity:.75;">
+        <span class="gh-star-count">–</span>
+      </span>
+    </a>
+  </div>
 </aside>
 <!-- #sidebar -->
 
