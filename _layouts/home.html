@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<!--
+  Overrides Chirpy's default home.html (which renders a paginated post-card
+  list and ignores index.html's own content entirely). Instead, the homepage
+  directly shows the pinned "welcome" post's content, single source of truth
+  kept in _posts so /posts/welcome/ still works as its own page too.
+-->
+
+{% assign welcome_post = site.posts | where: "pin_homepage", true | first %}
+
+<article class="px-1">
+  <div class="content">
+    {% if welcome_post %}
+      {{ welcome_post.content }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </div>
+</article>
