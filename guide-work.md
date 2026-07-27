@@ -22,10 +22,10 @@ date: 2026-06-27 10:00:00 +1200
 
 新西兰法定最低时薪（Minimum Wage）由 MBIE / Employment New Zealand 每年 4 月 1 日调整一次：
 
-| 类别 | 现行（截至 2026 年 3 月） | 2026 年 4 月 1 日起 |
-|---|---|---|
-| 成人最低时薪（Adult） | NZD 23.50 | NZD 23.95 |
-| Starting-out / Training 时薪 | NZD 18.80 | NZD 19.16 |
+| 类别 | 2026 年 4 月 1 日起 |
+|---|---|
+| 成人最低时薪（Adult）| NZD 23.95 |
+| Starting-out / Training 时薪 | NZD 19.16 |
 
 以上均为税前金额，实际到手会再扣除 PAYE 个税等（见下文）。留学生打零工通常按 Adult 或行业协议时薪计算，具体以雇主合同为准。**时薪逐年调整，找工作前建议直接查 [employment.govt.nz](https://www.employment.govt.nz/hours-and-wages/pay/minimum-wage/) 确认当年最新数字。**
 

@@ -1,5 +1,5 @@
 ---
-title: 项目与学校介绍
+title: SCU-UOA项目与学校介绍
 icon: fas fa-info-circle
 order: 1
 permalink: /about/

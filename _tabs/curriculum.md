@@ -85,7 +85,7 @@ date: 2026-07-05 10:00:00 +1200
 
 ---
 
-## 二、专业教育 Disciplinary Education
+## 二、（CS）专业教育 Disciplinary Education
 
 ### 学科基础课（必修）—— 完成学分 45（15 门全修）
 
