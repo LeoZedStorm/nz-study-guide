@@ -42,7 +42,7 @@ date: 2026-07-05 10:00:00 +1200
 - 温带海洋性气候，四季温和，冬季（6–8 月）平均气温约 11–15℃，夏季（12–2 月）约 19–24℃。
 - 汇聚约 180 种文化背景的居民，41% 的奥克兰人出生于海外，国际学生和华人社区规模较大，融入相对友好。
 - 曾在美世（Mercer）全球生活质量排名中位列世界前三，安全、洁净、宜居。
-- [生活成本](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=China&country2=New+Zealand&city1=Shanghai&city2=Auckland&tracking=getDispatchComparison)比上海贵，相对[英](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United+Kingdom&city1=London&country2=New+Zealand&city2=Auckland&displayCurrency=CNY)[美](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United+States&country2=New+Zealand&city1=Pittsburgh%2C+PA&city2=Auckland&tracking=getDispatchComparison)[澳](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Australia&city1=Sydney&country2=New+Zealand&city2=Auckland&displayCurrency=CNY)主要留学目的地更具**价价比**，具体开支可参考[生活与申请攻略]({{ site.baseurl }}/guide/)。
+- [生活成本](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=China&country2=New+Zealand&city1=Shanghai&city2=Auckland&tracking=getDispatchComparison)比上海贵，相对[英](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United+Kingdom&city1=London&country2=New+Zealand&city2=Auckland&displayCurrency=CNY)[美](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United+States&country2=New+Zealand&city1=Pittsburgh%2C+PA&city2=Auckland&tracking=getDispatchComparison)[澳](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Australia&city1=Sydney&country2=New+Zealand&city2=Auckland&displayCurrency=CNY)主要留学目的地更具**价价比**，具体开支可参考[申请准备]({{ site.baseurl }}/guide/prep/)和[落地安家]({{ site.baseurl }}/guide/settle/)两页。
 
 ---
 

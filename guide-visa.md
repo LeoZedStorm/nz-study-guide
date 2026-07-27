@@ -6,7 +6,7 @@ comments: true
 date: 2026-06-15 10:00:00 +1200
 ---
 
-[← 返回生活与申请攻略]({{ site.baseurl }}/guide/)
+[← 返回申请准备]({{ site.baseurl }}/guide/prep/)
 
 ## 学生签证（Student Visa）
 

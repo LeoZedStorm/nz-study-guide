@@ -1,7 +1,7 @@
 ---
 title: 旅游与观光
 icon: fas fa-plane
-order: 6
+order: 9
 permalink: /travel/
 date: 2026-05-24 10:00:00 +1200
 ---

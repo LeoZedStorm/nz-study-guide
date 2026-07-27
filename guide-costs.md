@@ -6,7 +6,7 @@ comments: true
 date: 2026-06-15 10:00:00 +1200
 ---
 
-[← 返回生活与申请攻略]({{ site.baseurl }}/guide/)
+[← 返回申请准备]({{ site.baseurl }}/guide/prep/)
 
 ## 留学是消费，不是投资
 

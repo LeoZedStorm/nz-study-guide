@@ -1,7 +1,7 @@
 ---
 title: 学习资源
 icon: fas fa-book-open
-order: 5
+order: 8
 permalink: /resources/
 comments: true
 date: 2026-07-05 10:00:00 +1200

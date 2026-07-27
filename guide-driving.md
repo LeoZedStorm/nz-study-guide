@@ -6,7 +6,7 @@ comments: true
 date: 2026-06-27 10:00:00 +1200
 ---
 
-[← 返回生活与申请攻略]({{ site.baseurl }}/guide/)
+[← 返回日常生活]({{ site.baseurl }}/guide/daily/)
 
 ## 持中国驾照能开多久
 

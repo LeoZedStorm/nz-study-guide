@@ -6,7 +6,7 @@ comments: true
 date: 2026-06-27 10:00:00 +1200
 ---
 
-[← 返回生活与申请攻略]({{ site.baseurl }}/guide/)
+[← 返回校园学习]({{ site.baseurl }}/guide/campus/)
 
 ## SSO 是什么
 

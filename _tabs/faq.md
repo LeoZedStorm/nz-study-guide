@@ -1,7 +1,7 @@
 ---
 title: 常见问题 FAQ
 icon: fas fa-question-circle
-order: 4
+order: 7
 permalink: /faq/
 comments: true
 date: 2026-07-05 10:00:00 +1200

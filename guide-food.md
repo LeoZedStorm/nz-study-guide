@@ -6,7 +6,7 @@ comments: true
 date: 2026-06-20 10:00:00 +1200
 ---
 
-[← 返回生活与申请攻略]({{ site.baseurl }}/guide/)
+[← 返回落地安家]({{ site.baseurl }}/guide/settle/)
 
 ## 三大连锁超市怎么选
 
