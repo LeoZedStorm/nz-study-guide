@@ -6,7 +6,7 @@ permalink: /guide/
 date: 2026-06-15 10:00:00 +1200
 ---
 
-去奥克兰学习、生活会遇到的实用问题，按"从准备到落地"的时间线拆成了几篇，方便按当前阶段查阅：
+去奥克兰学习、生活会遇到的实用问题，按"行前准备 → 落地安家 → 校园学习 → 日常生活"这条时间线拆成了几篇，方便按当前阶段查阅：
 
 **行前准备**
 - 🗣️ [语言备考]({{ site.baseurl }}/guide/english/) —— IELTS/TOEFL/PTE 要求与备考资料
@@ -19,9 +19,11 @@ date: 2026-06-15 10:00:00 +1200
 - 🏠 [住宿]({{ site.baseurl }}/guide/accommodation/) —— 校内宿舍 vs 校外租房，价格细化对比
 - 🍜 [吃饭多少钱]({{ site.baseurl }}/guide/food/) —— 超市对比、常见单品价格、外食档次、每周预算
 
-**校园与日常**
+**校园学习**
 - 🖥️ [选课与 SSO 系统]({{ site.baseurl }}/guide/enrolment/) —— UOA 学生系统怎么用、怎么选课
 - 📚 [学业制度与学习方式]({{ site.baseurl }}/guide/academics/) —— 评分体系、学术诚信、挂科影响
+
+**日常生活**
 - 💼 [打工与实习]({{ site.baseurl }}/guide/work/) —— 打工时限、最低时薪、CS 学生实习渠道
 - 🏥 [医疗与安全]({{ site.baseurl }}/guide/health-safety/) —— 注册 GP、ACC 意外赔偿、紧急电话与心理健康支持
 - 🚗 [新西兰驾车]({{ site.baseurl }}/guide/driving/) —— 中国驾照能不能开、怎么换本地驾照
