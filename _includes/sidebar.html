@@ -37,18 +37,63 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+        {%- assign children = site.data.subnav[tab.url] -%}
+        {%- assign is_expanded = false -%}
+        {%- if children -%}
+          {%- for child in children -%}
+            {%- if child.url == page.url -%}
+              {%- assign is_expanded = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}{% if children %} has-children{% if is_expanded %} expanded{% endif %}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
             <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
+          {% if children %}
+            <button type="button" class="nav-toggle" aria-label="展开/折叠子菜单">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <ul class="nav-sub">
+              {% for child in children %}
+                <li{% if child.url == page.url %} class="active"{% endif %}>
+                  <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </li>
         <!-- .nav-item -->
       {% endfor %}
     </ul>
   </nav>
+
+  <style>
+    .nav-item.has-children { position: relative; }
+    .nav-item.has-children > .nav-link { padding-right: 2.2rem; }
+    .nav-toggle {
+      position: absolute; right: 0; top: 0; height: 2.2rem; width: 2.2rem;
+      display: flex; align-items: center; justify-content: center;
+      background: none; border: none; color: inherit; opacity: .55; cursor: pointer; padding: 0;
+    }
+    .nav-toggle:hover { opacity: .9; }
+    .nav-toggle i { font-size: .7rem; transition: transform .15s ease; }
+    .nav-item.has-children.expanded > .nav-toggle i { transform: rotate(90deg); }
+    .nav-sub {
+      list-style: none; margin: 0; padding-left: 2.4rem;
+      max-height: 0; overflow: hidden; transition: max-height .2s ease;
+    }
+    .nav-item.has-children.expanded > .nav-sub { max-height: 16rem; }
+    .nav-sub li a {
+      display: block; padding: .3rem 0; font-size: .82rem; opacity: .75;
+      text-decoration: none; color: inherit;
+    }
+    .nav-sub li a:hover { opacity: 1; }
+    .nav-sub li.active a { opacity: 1; font-weight: 600; }
+  </style>
 
   <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
@@ -172,6 +217,15 @@
   <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
+
+<script>
+  document.querySelectorAll('.nav-item.has-children > .nav-toggle').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      btn.closest('.nav-item').classList.toggle('expanded');
+    });
+  });
+</script>
 
 <script>
   fetch('https://api.github.com/repos/LeoZedStorm/nz-study-guide')

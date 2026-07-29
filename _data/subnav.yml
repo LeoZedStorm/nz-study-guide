@@ -1,0 +1,34 @@
+# 侧边栏二级菜单：key 是父级 tab 的 permalink，value 是子页面列表
+# sidebar.html 会据此渲染可折叠的子菜单，不在这里出现的 tab 保持原样（没有子菜单）
+
+/guide/prep/:
+  - title: 语言备考
+    url: /guide/english/
+  - title: 学费与总花费
+    url: /guide/costs/
+  - title: 签证与毕业工签
+    url: /guide/visa/
+  - title: 行前准备清单
+    url: /guide/predeparture/
+
+/guide/settle/:
+  - title: 落地第一周
+    url: /guide/arrival/
+  - title: 住宿
+    url: /guide/accommodation/
+  - title: 吃饭多少钱
+    url: /guide/food/
+
+/guide/campus/:
+  - title: 选课与 SSO 系统
+    url: /guide/enrolment/
+  - title: 学业制度与学习方式
+    url: /guide/academics/
+
+/guide/daily/:
+  - title: 打工与实习
+    url: /guide/work/
+  - title: 医疗与安全
+    url: /guide/health-safety/
+  - title: 新西兰驾车
+    url: /guide/driving/
